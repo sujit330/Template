@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    background-image:linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(login%20background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.row {
+    max-width: 1300px;
+}
+
+/*-------------------------------------*/
+/* LOGO */
+/*-------------------------------------*/
+
+
+.logo {
+position: relative;
+    width: 103px;
+    margin:0 auto;
+    max-width: 1300px;
+    margin-left: 100px;
+    margin-top: 55px;
+}
+
+/*-------------------------------------*/
+/* NAVIGATION */
+/*-------------------------------------*/
+
+
+.main-nav {
+    float: right;
+    margin-right: -120px;;
+    position: relative;
+    margin-top:-95px;
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline;
+    padding: 20px;
+    margin-left: 40px;
+}
+
+.main-nav li a {
+    padding: 8px 0;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s
+}
+.main-nav li a:hover {
+    border-bottom: 2px solid orange;
+}
+
+
+
+
+/*-------------------------------------*/
+/* HEADING AND PARAGRAPH */
+/*-------------------------------------*/
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+    margin-top: 10px;
+}
+
+p span a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid transparent;
+    font-size: 13px;
+    margin-left: 10px;
+    
+}
+
+p span a:hover {
+    border-bottom: 1px solid #727272;
+}
+
+/*-------------------------------------*/
+/* MAIN */
+/*-------------------------------------*/
+
+.login-page {
+    padding: 10px;
+    border-bottom-color: red;
+    margin-top: 10%;
+    margin-left: 40%;
+}
+label {
+    font-family: cursive;
+    font-size: 28px;
+    color: white;
+}
+
+input {
+    margin-left: 25px;
+    height: 35px;
+    text-decoration: none;
+    border-style: none;
+    border-bottom: 1px solid red;
+    text-align: left;
+    width: 25%;
+    font-family: cursive;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: none;
+    background: transparent;
+    color: white;
+    font-weight: 700;
+}
+
+/*-------------------------------------*/
+/* BUTTON */
+/*-------------------------------------*/
+
+.submit {
+    width: 80px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.submit:hover {
+    background-color: #c6c6c6;
+    cursor: pointer;
+    color: black;
+}
+

@@ -1,0 +1,212 @@
+
+body {
+    background-image:linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(simon-berger-aZjw7xI3QAA-unsplash.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.row {
+    max-width: 1300px;
+}
+
+
+/*----------------------*/
+/*-----NAVIGATION------------*/
+/*----------------------*/
+
+
+.logo {
+    position: relative;
+    width: 103px;
+    margin:0 auto;
+    max-width: 1300px;
+    margin-left: 100px;
+    margin-top: 55px;
+}
+
+.main-nav {
+    float: right;
+    margin-top:-95px;
+    list-style: none;
+    margin-right: -100px;
+}
+
+.main-nav li {
+    display: inline;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.main-nav li a {
+    padding: 8px 0;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s
+}
+.main-nav li a:hover {
+    border-bottom: 2px solid orange;
+}
+
+/*-------------------------------------*/
+/* LOGIN PAGE*/
+/*-------------------------------------*/  
+    
+
+.login-page {
+    padding: 10px;
+    border-bottom-color: red;
+    margin-top: 1%;
+    margin-left: 30%;
+}
+label {
+    font-family: cursive;
+    font-size: 28px;
+}
+
+ .lname {
+    margin-left: 10%;
+}
+.button {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    width: 85px;
+    height: 30px;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+}  
+select {
+    text-decoration: none;
+    border: 2px solid red;
+    border: none;
+    margin-left: 12px;
+    position:relative;
+    height: 25px;
+    margin-left: 58px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+option {
+    text-decoration: none;
+    border: none;
+}
+
+.button:hover {
+    background-color:black;
+    color: transparent;;
+    cursor: pointer;
+    color: white;
+}    
+
+
+/*----------------------*/
+/*-----  INPUT------------*/
+/*----------------------*/
+
+input {
+    margin-left: 25px;
+    height: 35px;
+    text-decoration: none;
+    border-style: none;
+    border-bottom: 1px solid red;
+    text-align: left;
+    width: 25%;
+    font-family: cursive;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: none;
+    background: transparent;
+    color: white;
+    font-weight: 700;
+}
+
+.email-text {
+    width: 33%;
+    border: none;
+    margin-left: 76px;
+}
+
+.date {
+    width: 25%;
+    margin-left: 85px;
+    color: white;
+}
+
+.lname {
+    margin-left: 34px;
+}
+
+placeholder {
+    color: white;
+}
+
+    
+  /*-------------------------------------*/
+/* HEADING AND PARAGRAPH */
+/*-------------------------------------*/  
+    
+   
+h1 {
+    width: 150px;
+    padding: 10px''
+}
+
+p a{
+    font-family: cursive;
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+p a:hover {
+    border-bottom: 1px solid white;
+}
+
+p a span {
+    font-size: 10px;
+    font-weight: 900
+}
+
+.check {
+    height: 12px;
+    width: 35px;
+    margin-top: -33px;
+    margin-left: 190px;
+    position: absolute;
+}    
+    
+p1 {
+    position: absolute;
+    margin-left: 250px;
+     margin-top: 5px;
+}    
+   
+p1 a {
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 12px;
+    border-bottom: 2px solid transparent;
+    font-weight: 900;
+}
+
+p1 a:hover {
+    border-bottom: 1px solid white;
+} 
+    
+    
+    

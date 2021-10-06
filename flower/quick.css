@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+/*----------------------*/
+/*-----Link------------*/
+/*----------------------*/
+
+.links {
+    list-style: none;
+    border: 2px solid #c9c9c9;
+    height: 70px;
+    
+}
+
+.links ul {
+    list-style: none;
+     margin-top: 30px;
+}
+
+.links ul li {
+    display: inline-block;
+    
+}
+
+.links ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 2px solid trasnparent;
+    transition: border-bottom 0.02s;
+    margin: 50px;
+ 
+    
+}
+
+.links ul li a:hover {
+    border-bottom: 2px solid orange;
+
+}
+
+.sub-menu  {
+    display:none;
+    position: absolute;
+    margin-top: 50px;
+    border: none;
+    font-size: 10px;
+}
+
+.sub-menu ul li a {
+    font-size: 18px;
+    margin-left: auto;
+}
+.links ul li:hover .sub-menu {
+    display: ;
+    position: absolute;
+    background: ;
+    color: black;
+    border: none;
+      
+}
+
+.links ul li:hover .sub-menu {
+    display: block;
+    margin:10px;
+    text-align:center;
+    margin-left: auto;
+    border-bottom: none;
+}
+
+
+/*----------------------*/
+/*-----SUB-MENU 2------------*/
+/*----------------------*/
+
+.sub-menu2  {
+   display:none;
+    position: absolute;
+    margin-top: 50px;
+    border: none;
+    font-size: 10px;
+}
+
+.sub-menu2 ul li a {
+    font-size: 18px;
+    margin-left: auto;
+}
+.links ul li:hover .sub-menu2 {
+    display: block;
+    position: absolute;
+    background: ;
+    color: black;
+    border: none;
+      
+}
+
+.links ul li:hover .sub-menu2 {
+    display: block;
+    margin:10px;
+    text-align:center;
+    margin-left: -220px;
+    border-bottom: none;
+}
+
+/*----------------------*/
+/*-----SUB-MENU 3------------*/
+/*----------------------*/
+
+
+.sub-menu3  {
+   display:none;
+    position: absolute;
+    margin-top: 50px;
+    border: none;
+    font-size: 10px;
+}
+
+.sub-menu3 ul li a {
+    font-size: 18px;
+    margin-left: auto;
+}
+.links ul li:hover .sub-menu3 {
+    display: block;
+    position: absolute;
+    background: ;
+    color: black;
+    border: none;
+      
+}
+
+.links ul li:hover .sub-menu3 {
+    display: block;
+    margin:10px;
+    text-align:center;
+    margin-left:-450px ;
+    border-bottom: none;
+}
+
+/*----------------------*/
+/*-----SUB-MENU 4------------*/
+/*----------------------*/
+
+
+.sub-menu4  {
+   display:none;
+    position: absolute;
+    margin-top: 50px;
+    border: none;
+    font-size: 10px;
+}
+
+.sub-menu4 ul li a {
+    font-size: 18px;
+    margin-left: auto;
+}
+.links ul li:hover .sub-menu4 {
+    display: block;
+    position: absolute;
+    background: ;
+    color: black;
+    border: none;
+      
+}
+
+.links ul li:hover .sub-menu4 {
+    display: block;
+    margin:10px;
+    text-align:center;
+    margin-left:-650px ;
+    border-bottom: none;
+}
+
+/*----------------------*/
+/*-----SUB-MENU 5------------*/
+/*----------------------*/
+
+
+.sub-menu5  {
+   display:none;
+    position: absolute;
+    margin-top: 50px;
+    border: none;
+    font-size: 10px;
+}
+
+.sub-menu5 ul li a {
+    font-size: 18px;
+    margin-left: auto;
+}
+.links ul li:hover .sub-menu5 {
+    display: block;
+    position: absolute;
+    background: ;
+    color: black;
+    border: none;
+      
+}
+
+.links ul li:hover .sub-menu5 {
+    display: block;
+    margin:10px;
+    text-align:center;
+    margin-left:-650px ;
+    border-bottom: none;
+}
+
+
